@@ -1,6 +1,4 @@
-/* ==========================================================================
-   1. RESET, FONTS & GLOBAL CONFIGURATIONS
-   ========================================================================== */
+/* 1. RESET, FONTS & GLOBAL CONFIGURATIONS */
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +16,8 @@ body {
     background-color: #04190c; /* Olive Kitchen's signature deep green background */
 }
 
-/* ==========================================================================
-   2. STICKY HEADER NAVIGATION BAR & SVG LOGO
-   ========================================================================== */
+/*2. STICKY HEADER NAVIGATION BAR & SVG LOGO */
+    
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -92,9 +89,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* ==========================================================================
-   3. HERO DISPLAY AREA WITH DARK GRADIENT OVERLAY
-   ========================================================================== */
+/* 3. HERO DISPLAY AREA WITH DARK GRADIENT OVERLAY */
 .hero {
     display: flex;
     justify-content: center;
@@ -173,9 +168,7 @@ body {
     color: #04190c;
 }
 
-/* ==========================================================================
-   4. ABOUT US SECTION (SIGNATURE CULINARY STYLE)
-   ========================================================================== */
+/* 4. ABOUT US SECTION (SIGNATURE CULINARY STYLE) */
 .about-section {
     padding: 90px 8%;
     background-color: #04190c;
@@ -231,9 +224,7 @@ body {
     font-size: 16px;
 }
 
-/* ==========================================================================
-   5. SIGNATURE MENU DISPLAY CARDS & BULLET BOX
-   ========================================================================== */
+/* 5. SIGNATURE MENU DISPLAY CARDS & BULLET BOX */
 .menu-section {
     padding: 80px 8%;
     background-color: #062412; /* Lighter container contrast shadow tint */
@@ -338,9 +329,7 @@ body {
     display: inline-block;
 }
 
-/* ==========================================================================
-   6. EVENT COVERAGE SEGMENT PROMO DISPLAY BADGE
-   ========================================================================== */
+/* 6. EVENT COVERAGE SEGMENT PROMO DISPLAY BADGE */
 .events-section {
     background: linear-gradient(rgba(4, 25, 12, 0.85), rgba(4, 25, 12, 0.85)), 
                 url('olive-kitchen-outdoor-catering-feast.png') no-repeat center center/cover;
@@ -384,9 +373,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* ==========================================================================
-   7. CUSTOMER TESTIMONIAL REVIEW TILES
-   ========================================================================== */
+/*  7. CUSTOMER TESTIMONIAL REVIEW TILES */
 .review-section {
     padding: 80px 8%;
     background-color: #04190c;
@@ -506,9 +493,7 @@ transform: rotate(45deg); /* Transforms addition icon into an close handle */
 max-height: 250px;
 padding: 20px 25px 0 25px;
 }
-/* ==========================================================================
-9. BOOKING FORM & AUTOMATED INTERACTIVE WHATSAPP BADGES
-========================================================================== */
+/* 9. BOOKING FORM & AUTOMATED INTERACTIVE WHATSAPP BADGES */
 .contact-section {
 padding: 80px 8%;
 text-align: center;
@@ -598,9 +583,7 @@ background: linear-gradient(45deg, #ffd700 25%, transparent 25%),
 linear-gradient(-45deg, #ffd700 25%, #03140a 25%);
 background-size: 20px 20px;
 }
-/* ==========================================================================
-   10. MOBILE BREAKPOINTS & STRUCTURAL RESPONSIVENESS
-   ========================================================================== */
+/* 10. MOBILE BREAKPOINTS & STRUCTURAL RESPONSIVENESS */
 @media (max-width: 850px) {
     .about-container {
         flex-direction: column;
